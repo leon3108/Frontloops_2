@@ -1,0 +1,131 @@
+body 
+{
+    background-image: url(img/background.jpg);
+    background-repeat:no-repeat;
+    background-size: 100vw 100vh;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.conteneur
+{
+    display: flex;
+    border-radius: 1rem;
+    width: 40%;
+    box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.element
+{
+    text-align: left;
+    background-color: #fff;
+}
+
+.element:focus
+{
+    background-color: gray;
+}
+
+.element:hover
+{
+    background-color: #dbdada;
+}
+
+.cercle_conteneur
+{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: space-around;
+}
+
+.cercle_blanc
+{
+    width: 15px;
+    border-radius: 25px;
+    background: rgb(196, 195, 195);
+    /* margin-left: 10%; */
+}
+
+.cercle_gris
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    background: gray;
+    margin-left: 10%;
+
+}
+
+#next_step
+{
+    color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: rgb(0, 119, 255);
+    padding: 0;
+    border:none;
+}
+
+#next_step:active
+{
+    transform: translate(0%, 5%);
+}
+
+h2
+{
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: gray;
+    margin-right: 1em;
+}
+
+p
+{
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 40%;
+    font-size: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.header
+{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: #fff;
+}
+
+.logo
+{
+    margin-left: 10%;
+    vertical-align: middle;
+}
+
+.img_arrow
+{
+    vertical-align: middle;
+
+}
+
+.check
+{
+    vertical-align: middle;
+}
+
+.black_text
+{
+    color: black;
+}
